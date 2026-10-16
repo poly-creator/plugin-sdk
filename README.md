@@ -50,15 +50,23 @@ export default class MyPlugin extends PolycreatorPlugin {
 }
 ```
 
+## Docs
+
+- [Plugin settings](./docs/plugin-settings.md) — declarative tabs and controls (`SettingTab`, `SettingControl`), rendered by the host with its own styling.
+- [Plugin node UI](./docs/plugin-node-ui.md) — the floating toolbar above a node and the composer below it.
+- [Template](https://github.com/poly-creator/plugin-template) — a minimal plugin to start from, including the release workflow that produces the three assets the registry expects.
+
 ## Build
 
-The package is built from the workspace `src/` to `dist/`:
+`src/` compiles to `dist/` (what `main`/`types`/`exports` point at):
 
 ```sh
-pnpm --filter @polycreator/plugin-sdk build
+pnpm install
+pnpm run build
 ```
 
-`prepublishOnly` runs `clean + build` before `pnpm publish`.
+`prepublishOnly` runs `clean + build` before a publish, and `pnpm test` runs the
+type-level and runtime suite.
 
 ## Trust tiers
 
