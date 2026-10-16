@@ -1,6 +1,6 @@
 {
 	"name": "@polycreator/plugin-sdk",
-	"version": "0.3.1",
+	"version": "0.3.3",
 	"description": "Plugin SDK for PolyCreator — types + PolycreatorPlugin base class for building third-party renderer plugins (toolbar, agents, canvas events, providers).",
 	"keywords": [
 		"agents",
