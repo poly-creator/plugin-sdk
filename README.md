@@ -1,5 +1,9 @@
 # @polycreator/plugin-sdk
 
+[![npm](https://img.shields.io/npm/v/@polycreator/plugin-sdk)](https://www.npmjs.com/package/@polycreator/plugin-sdk)
+[![CI](https://github.com/poly-creator/plugin-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/poly-creator/plugin-sdk/actions/workflows/ci.yml)
+[![provenance](https://img.shields.io/badge/provenance-signed-blue?logo=npm)](https://www.npmjs.com/package/@polycreator/plugin-sdk)
+
 Plugin SDK for **PolyCreator** — types and a base
 class for building third-party renderer plugins.
 
@@ -52,8 +56,8 @@ export default class MyPlugin extends PolycreatorPlugin {
 
 ## Docs
 
-- [Plugin settings](./docs/plugin-settings.md) — declarative tabs and controls (`SettingTab`, `SettingControl`), rendered by the host with its own styling.
-- [Plugin node UI](./docs/plugin-node-ui.md) — the floating toolbar above a node and the composer below it.
+- [Plugin settings](https://github.com/poly-creator/plugin-sdk/blob/main/docs/plugin-settings.md) — declarative tabs and controls (`SettingTab`, `SettingControl`), rendered by the host with its own styling.
+- [Plugin node UI](https://github.com/poly-creator/plugin-sdk/blob/main/docs/plugin-node-ui.md) — the floating toolbar above a node and the composer below it.
 - [Template](https://github.com/poly-creator/plugin-template) — a minimal plugin to start from, including the release workflow that produces the three assets the registry expects.
 
 ## Build
