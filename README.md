@@ -83,6 +83,12 @@ to touch the missing surfaces. The canvas read methods
 (used by `agent.invoke`) remain available; canvas mutation methods
 (`addNode`/`updateNode`/...) reject at runtime.
 
+## PolyCreator
+
+The desktop app this SDK targets: **https://polycreator.si** — download it
+there, or read the [help center](https://polycreator.si/help) and the
+[author guide](https://polycreator.si/docs/publish).
+
 ## License
 
 MIT — see [LICENSE](./LICENSE).
